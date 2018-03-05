@@ -11,7 +11,7 @@
         <!--引用bean-->
         <variable
             name="novel"
-            type="com.uhmtech.reader.bean.NovelsBean" />
+            type="com.flyersoft.moonreader.bean.NovelsBean" />
 
         <!--引用bean-->
         <!--<variable-->

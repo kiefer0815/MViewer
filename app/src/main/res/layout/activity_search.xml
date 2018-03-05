@@ -6,7 +6,7 @@
 	                android:layout_height="match_parent"
 	                android:background="@color/colorPageBg"
 	                android:orientation="horizontal"
-	                tools:context="com.uhmtech.reader.ui.BookSearchActivity">
+	                tools:context="com.flyersoft.moonreader.ui.BookSearchActivity">
 		<LinearLayout
 				android:id="@+id/title"
 				android:layout_width="wrap_content"

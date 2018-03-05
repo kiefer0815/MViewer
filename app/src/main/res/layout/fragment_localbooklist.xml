@@ -1,4 +1,4 @@
-<com.uhmtech.reader.view.DragGridView
+<com.flyersoft.moonreader.view.DragGridView
 		android:id="@+id/bookShelf"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"

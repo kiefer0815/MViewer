@@ -8,7 +8,7 @@
         android:background="@color/colorPageBg"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        tools:context="com.uhmtech.reader.ui.menu.NavDownloadActivity">
+        tools:context="com.flyersoft.moonreader.ui.menu.NavDownloadActivity">
         <FrameLayout
                 android:id="@+id/container"
                 android:layout_width="wrap_content"

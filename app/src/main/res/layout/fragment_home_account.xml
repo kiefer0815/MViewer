@@ -4,11 +4,11 @@
 		<import type="android.view.View"/>
 		<variable
 				name="listener"
-				type="com.uhmtech.reader.fragment.HomeAccountFragment" />
+				type="com.flyersoft.moonreader.fragment.HomeAccountFragment" />
 
 		<variable
 				name="user"
-				type="com.uhmtech.reader.bean.User" />
+				type="com.flyersoft.moonreader.bean.User" />
 	</data>
 
 	<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -18,7 +18,7 @@
 	              android:fitsSystemWindows="true"
 	              android:background="@color/colorPageBg"
 	              android:orientation="vertical"
-	              tools:context="com.uhmtech.reader.fragment.HomeAccountFragment">
+	              tools:context="com.flyersoft.moonreader.fragment.HomeAccountFragment">
 
 
 		<!--状态栏-->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools" package="com.uhmtech.reader">
+          xmlns:tools="http://schemas.android.com/tools" package="com.flyersoft.moonreader">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
@@ -48,7 +48,7 @@
         android:anyDensity="true"/>
 
     <application
-            android:name="com.uhmtech.reader.AppContext"
+            android:name="com.flyersoft.moonreader.AppContext"
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
@@ -56,7 +56,7 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme" tools:replace="android:allowBackup">
         <activity
-            android:name="com.uhmtech.reader.ui.SplashActivity"
+            android:name="com.flyersoft.moonreader.ui.SplashActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/guideTheme">
@@ -66,25 +66,25 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.uhmtech.reader.MainActivity"
+            android:name="com.flyersoft.moonreader.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-            android:name="com.uhmtech.reader.FileActivity"
+            android:name="com.flyersoft.moonreader.FileActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-            android:name="com.uhmtech.reader.ReadActivity"
+            android:name="com.flyersoft.moonreader.ReadActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-            android:name="com.uhmtech.reader.MarkActivity"
+            android:name="com.flyersoft.moonreader.MarkActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
@@ -96,79 +96,79 @@
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-            android:name="com.uhmtech.reader.ui.menu.NavAboutActivity"
+            android:name="com.flyersoft.moonreader.ui.menu.NavAboutActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-                android:name="com.uhmtech.reader.ui.menu.NavUserBookActivity"
+                android:name="com.flyersoft.moonreader.ui.menu.NavUserBookActivity"
                 android:label="@string/app_name"
                 android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-                android:name="com.uhmtech.reader.ui.WelfareActivity"
+                android:name="com.flyersoft.moonreader.ui.WelfareActivity"
                 android:label="@string/app_name"
                 android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-                android:name="com.uhmtech.reader.ui.menu.NavDownloadActivity"
+                android:name="com.flyersoft.moonreader.ui.menu.NavDownloadActivity"
                 android:label="@string/app_name"
                 android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-                android:name="com.uhmtech.reader.ui.menu.NavUseActivity"
+                android:name="com.flyersoft.moonreader.ui.menu.NavUseActivity"
                 android:label="@string/app_name"
                 android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-                android:name="com.uhmtech.reader.ui.BookDetailActivity"
+                android:name="com.flyersoft.moonreader.ui.BookDetailActivity"
                 android:label="@string/app_name"
                 android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-                android:name="com.uhmtech.reader.ui.BookSearchActivity"
+                android:name="com.flyersoft.moonreader.ui.BookSearchActivity"
                 android:label="@string/app_name"
                 android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-                android:name="com.uhmtech.reader.HorizontalNtbActivity"
+                android:name="com.flyersoft.moonreader.HorizontalNtbActivity"
                 android:label="@string/app_name"
                 android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-                android:name="com.uhmtech.reader.ui.AlbumDetailActivity"
+                android:name="com.flyersoft.moonreader.ui.AlbumDetailActivity"
                 android:label="@string/app_name"
                 android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-                android:name="com.uhmtech.reader.ui.AlbumActivity"
+                android:name="com.flyersoft.moonreader.ui.AlbumActivity"
                 android:label="@string/app_name"
                 android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-                android:name="com.uhmtech.reader.ui.NovelListActivity"
+                android:name="com.flyersoft.moonreader.ui.NovelListActivity"
                 android:label="@string/app_name"
                 android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-                android:name="com.uhmtech.reader.ui.RecommendActivity"
+                android:name="com.flyersoft.moonreader.ui.RecommendActivity"
                 android:label="@string/app_name"
                 android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-                android:name="com.uhmtech.reader.ui.LockScreenActivity"
+                android:name="com.flyersoft.moonreader.ui.LockScreenActivity"
                 android:label="@string/app_name"
                 android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
@@ -248,7 +248,7 @@
 
         <provider
                 android:name="android.support.v4.content.FileProvider"
-                android:authorities="com.uhmtech.reader.fileProvider"
+                android:authorities="com.flyersoft.moonreader.fileProvider"
                 android:grantUriPermissions="true"
                 android:exported="false">
             <meta-data

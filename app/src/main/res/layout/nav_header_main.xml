@@ -5,11 +5,11 @@
         <import type="android.view.View"/>
         <variable
                 name="listener"
-                type="com.uhmtech.reader.MainActivity" />
+                type="com.flyersoft.moonreader.MainActivity" />
 
         <variable
                 name="user"
-                type="com.uhmtech.reader.bean.User" />
+                type="com.flyersoft.moonreader.bean.User" />
     </data>
 
     <android.support.v4.widget.NestedScrollView

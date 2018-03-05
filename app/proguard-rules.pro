@@ -233,7 +233,7 @@ public static final android.os.Parcelable$Creator *;
  }
 
 #项目
--keep class com.uhmtech.reader.bean.** {*;}
+-keep class com.flyersoft.moonreader.bean.** {*;}
 
 -keep class org.litepal.** {
     *;

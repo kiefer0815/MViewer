@@ -6,7 +6,7 @@
 
 		<variable
 				name="recommendBean"
-				type="com.uhmtech.reader.bean.RecommendBean" />
+				type="com.flyersoft.moonreader.bean.RecommendBean" />
 	</data>
 
 	<LinearLayout

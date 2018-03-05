@@ -5,7 +5,7 @@
         android:id="@+id/srl_book"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.uhmtech.reader.fragment.BookCustomFragment">
+        tools:context="com.flyersoft.moonreader.fragment.BookCustomFragment">
 
         <RelativeLayout
         android:layout_width="match_parent"

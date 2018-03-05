@@ -5,7 +5,7 @@
                      android:layout_height="match_parent"
                     >
 
-        <com.uhmtech.reader.component.xrecyclerview.XRecyclerView
+        <com.flyersoft.moonreader.component.xrecyclerview.XRecyclerView
             android:id="@+id/xrv_welfare"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

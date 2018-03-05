@@ -4,7 +4,7 @@
     android:layout_height="fill_parent"
     android:background="#ff000000">
 
-    <com.uhmtech.reader.component.photoview.PhotoView
+    <com.flyersoft.moonreader.component.photoview.PhotoView
         android:id="@+id/zoom_image_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

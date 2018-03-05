@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.uhmtech.reader.component.MyNestedScrollView
+        <com.flyersoft.moonreader.component.MyNestedScrollView
             android:id="@+id/mns_base"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -79,7 +79,7 @@
                 </RelativeLayout>
 
             </LinearLayout>
-        </com.uhmtech.reader.component.MyNestedScrollView>
+        </com.flyersoft.moonreader.component.MyNestedScrollView>
 
         <!--标题-->
         <RelativeLayout

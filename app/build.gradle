@@ -17,7 +17,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.uhmtech.reader"
+        applicationId "com.flyersoft.moonreader"
         minSdkVersion 19
         targetSdkVersion 25
         versionCode 200006
@@ -92,8 +92,7 @@ android {
     productFlavors {
         official {}
 //        dev {}
-        sis {}
-        yingyongbao {}
+
 //        tuiguang{}
 //        google{}
 //        wandoujia {}

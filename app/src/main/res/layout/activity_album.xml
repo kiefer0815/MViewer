@@ -6,7 +6,7 @@
 	                android:layout_height="match_parent"
 	                android:fitsSystemWindows="true"
 	                android:background="@color/colorPageBg"
-	                tools:context="com.uhmtech.reader.ui.AlbumDetailActivity">
+	                tools:context="com.flyersoft.moonreader.ui.AlbumDetailActivity">
 		<android.support.v7.widget.RecyclerView
 				android:id="@+id/xrv_ablums"
 				android:layout_width="match_parent"

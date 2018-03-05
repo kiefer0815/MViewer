@@ -8,7 +8,7 @@
 	                android:background="@color/colorPageBg"
 	                android:orientation="horizontal"
 	                android:paddingBottom="@dimen/activity_vertical_margin"
-	                tools:context="com.uhmtech.reader.ui.menu.NavUseActivity">
+	                tools:context="com.flyersoft.moonreader.ui.menu.NavUseActivity">
 
 		<ScrollView
 		android:layout_width="match_parent"

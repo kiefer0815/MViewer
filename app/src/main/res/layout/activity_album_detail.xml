@@ -4,7 +4,7 @@
 
 		<variable
 				name="bean"
-				type="com.uhmtech.reader.bean.AlbumBean" />
+				type="com.flyersoft.moonreader.bean.AlbumBean" />
 
 	</data>
 	<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -13,7 +13,7 @@
 	              android:layout_height="match_parent"
 	              android:fitsSystemWindows="true"
 	              android:background="@color/colorPageBg"
-	              tools:context="com.uhmtech.reader.ui.AlbumDetailActivity">
+	              tools:context="com.flyersoft.moonreader.ui.AlbumDetailActivity">
 
 		<TextView
 				android:id="@+id/tv_name"

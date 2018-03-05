@@ -5,7 +5,7 @@
 
 		<variable
 				name="novel"
-				type="com.uhmtech.reader.bean.NovelsBean" />
+				type="com.flyersoft.moonreader.bean.NovelsBean" />
 
 	</data>
 
@@ -14,7 +14,7 @@
 	              android:layout_width="match_parent"
 	              android:layout_height="match_parent"
 	              android:orientation="vertical"
-	              tools:context="com.uhmtech.reader.ui.BookDetailActivity">
+	              tools:context="com.flyersoft.moonreader.ui.BookDetailActivity">
 
 
 		<LinearLayout

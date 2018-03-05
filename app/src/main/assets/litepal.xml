@@ -5,8 +5,8 @@
     <version value="1" ></version>
 
     <list>
-        <mapping class="com.uhmtech.reader.component.db.BookCatalogue"></mapping>
-        <mapping class="com.uhmtech.reader.component.db.BookList"></mapping>
-        <mapping class="com.uhmtech.reader.component.db.BookMarks"></mapping>
+        <mapping class="com.flyersoft.moonreader.component.db.BookCatalogue"></mapping>
+        <mapping class="com.flyersoft.moonreader.component.db.BookList"></mapping>
+        <mapping class="com.flyersoft.moonreader.component.db.BookMarks"></mapping>
     </list>
 </litepal>
