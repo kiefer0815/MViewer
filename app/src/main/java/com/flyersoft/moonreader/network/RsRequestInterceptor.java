@@ -12,14 +12,13 @@ import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Build;
-import com.squareup.okhttp.Interceptor;
-import com.squareup.okhttp.Request;
-import com.squareup.okhttp.Response;
 import com.flyersoft.moonreader.AppContext;
 import com.flyersoft.moonreader.UserManager;
 import com.flyersoft.moonreader.bean.User;
-import com.flyersoft.moonreader.utils.AppTool;
 import com.flyersoft.moonreader.utils.UIUtils;
+import com.squareup.okhttp.Interceptor;
+import com.squareup.okhttp.Request;
+import com.squareup.okhttp.Response;
 
 import java.io.IOException;
 
@@ -79,7 +78,7 @@ public class RsRequestInterceptor implements Interceptor {
 
         String origin_url = chain.request().urlString();
         String url = origin_url.substring(origin_url.indexOf("//") + 2, origin_url.length());
-        request.addHeader(HttpHeader.SIGN, AppTool.getMD5String(AppContext.applicationContext,url));
+        //request.addHeader(HttpHeader.SIGN, AppTool.getMD5String(AppContext.applicationContext,url));
         // Do anything with response here
 
         return chain.proceed(request.build());

@@ -8,12 +8,12 @@ public class Constants {
         public static final String BOOK_NEW_PRE_UTL = "";
         public static final String BOOK_COVER_PRE_URL = "";
         public static final String MOVIE_COVER_PRE_URL = "";
-        public static final String APPID = "";
-        public static final String SplashPosID = "";
-        public static final String BannerPosID = "";
-        public static final String InterteristalPosID = "";
-        public static final String NativeExpressPosID = "";
-        public static final String NativeExpressPosID2 = "";
+        public static final String APPID = "1106755374";
+        public static final String SplashPosID = "2040139193173437";
+        public static final String BannerPosID = "3050632143071479";
+        public static final String InterteristalPosID = "4000536153176478";
+        public static final String NativeExpressPosID = "5070831123675416";
+        public static final String NativeExpressPosID2 = "5070831123675416";
         public static final String DEFAULT_DOMAIN_NAME = "";
         public static final String DEFAULT_DOWNLOAD_URL = "";
         // 配置更新
